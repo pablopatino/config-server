@@ -8,6 +8,12 @@ spring:
     username: sa
     password:
 
+  rabbitmq:
+    port: 5672
+    host: localhost
+    username: guest
+    password: guest
+  
   h2:
     console:
       enabled: true
